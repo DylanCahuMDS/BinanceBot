@@ -1,4 +1,4 @@
-<? php
+<?php
 
 class Algorithm{
 
@@ -11,6 +11,7 @@ class Algorithm{
 // get signal. Returns 1 if the signal is buy, -1 if the signal is sell, 0 if he signal is hold
 
 public function getSignal($arrayPrices){
+    
     // Size of the array
     $size = count($arrayPrices);
 
@@ -24,19 +25,19 @@ public function getSignal($arrayPrices){
         $sum += $arrayPrices[$i];
     }
 
-$averrage = $sum / ($size - 1);
+    $averrage = $sum / ($size - 1);
 
-// BUY
+    // BUY
 
-if ($arrayPrices[$size - 1] > $average*1.02){
-    return 1;
+    if ($arrayPrices[$size - 1] > $average*1.02){
+        return 1;
+    }
+    if ($arrayPrices[$size - 1] < $average){
+        return -1;
+    }
+
+    return 0;
+
 }
-if ($arrayPrices[$size - 1] < $average){
-    return -1;
-}
 
-return 0;
-
-}
-
->
+?>

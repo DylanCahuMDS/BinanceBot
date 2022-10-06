@@ -2,10 +2,10 @@
 
 Class TraderCoinBase {
 
-    public void sell(...){
-        [...]
+    public function sell(){
+        
     }
 
 }
 
->
+?>
