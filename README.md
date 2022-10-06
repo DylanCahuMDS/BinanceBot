@@ -3,5 +3,5 @@ Projet réalisé par :
 - Ludovic Evrin
 - Mathieu
 - Violette
-- Dylan
+- Dylan Cahu
 - Victor
