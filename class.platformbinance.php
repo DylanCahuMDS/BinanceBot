@@ -5,6 +5,12 @@ class PlatformBinance{
     private Analyser $analyser;
     private Trader $trader;
 
+
+    public function __construct(Analyser $analyser, Trader $trader){
+        $this->analyser = $analyser;
+        $this->trader = $trader;
+    }
+
     public function run(): void
     {
 
