@@ -1,23 +1,20 @@
 <?php
 
-include "class/class.algorithm.php";
-include "class/class.dataretriever.php";
-include "class/class.proxydataretriever.php";
+include "class.algorithm.php";
+include "class.dataretriever.php";
+include "class.proxydataretriever.php";
 
-include "class/interfaces/interface.bank.php";
-include "class/class.wallet.php";
-include "class/class.banker.php";
+include "interfaces/interface.bank.php";
+include "class.wallet.php";
+include "class.banker.php";
 
-include "class/abstract.class.traderfactory.php";
-include "class/binance/class.binanceTraderFactory.php";
-include "class/interfaces/interface.trader.php";
-include "class/binance/class.traderBinance.php";
-include "class/class.analyzer.php";
-include "class/binance/class.platformbinance.php";
-include "class/class.command.php";
-
-include "class/class.logger.php";
-
+include "abstract.class.traderfactory.php";
+include "binance/class.binanceTraderFactory.php";
+include "interfaces/interface.trader.php";
+include "binance/class.traderBinance.php";
+include "class.analyzer.php";
+include "binance/class.platformbinance.php";
+include "class.command.php";
 
 $factory = new BinanceTraderFactory();
 $analizer = new Analyzer(
