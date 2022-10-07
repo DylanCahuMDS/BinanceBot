@@ -2,7 +2,7 @@
 include("class.algorithm.php");
 include("class.proxydataretriever.php");
 
-class Analyse{
+class Analyser{
     public $url;
     public $commandresponse;
 
