@@ -1,6 +1,6 @@
 <?php
 include("class.algorithm.php");
-include("class.dataretriever.php");
+include("class.proxydataretriever.php");
 
 class Analyse{
     public $url;
@@ -11,7 +11,7 @@ class Analyse{
     
     public function getAlgoInstruction(){
         while(true){
-            $dataRetrever = new DataRetriever($this->url);
+            $dataRetrever = new ProxyDataRetriever($this->url);
             sleep(3);
         }
         $algoResponse = new Algorithm($dataRetrever);
