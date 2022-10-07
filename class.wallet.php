@@ -61,3 +61,5 @@ class Wallet{
         return $oneCrypto;
     }
 }
+
+?>
