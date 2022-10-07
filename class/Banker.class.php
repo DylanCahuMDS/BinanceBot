@@ -5,7 +5,7 @@ class Banker implements Bank
 {
     private Wallet $myWallet;
 
-    private double $buffer;
+    private float $buffer;
 
     public function storeMoney(double $amount)
     {
