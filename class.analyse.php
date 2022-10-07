@@ -14,8 +14,9 @@ class Analyse{
             $dataRetrever = new ProxyDataRetriever($this->url);
             sleep(3);
         }
-        $algoResponse = new Algorithm($dataRetrever);
-        return $algoResponse;
+        $algoResponse = new Algorithm();
+        
+        return [$algoResponse->getSignal($dataRetrever->getData($dataRetrever->getPairPrice("BTCUSDT"))), $dataRetrever->getPairPrice("BTCUSDT")[1], $dataRetrever->getPairPrice("BTCUSDT")[0]];
     }
 
 }

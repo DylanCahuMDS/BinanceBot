@@ -2,29 +2,28 @@
 
 require("class.Wallet.php");
 require("class.analyse.php");
+require("class.trader.php");
+
+$url="trash.json";
+$analyse = new analyse($url);
+$instruction = $analyse->getAlgoInstruction()[0];
+echo $instruction;
 
 
-$analyse = new analyse('url');
-$instruction = $analyse->getAlgoInstruction();
+function appelFonction($instruction){
+   
+    $action = array(
+        -1 => "sell",
+        1 => "buy"
+    );
 
-/*
-function appelFonction($Instruct){
-   const map = {
-        1 : buy(),
-        -1 : sell(),
-    }
+    $functionName = $action[$instruction] ?? $functionName = "wait";
 
-    return map[$Instruct] ?? continue ;
+    $functionName();
 }
-*/
-$wallet = new Wallet;
 
-/*
-$wallet -> storeMoney(30);
-$wallet -> withdrawMoney(10);
-echo $wallet -> getMyMoney();
-*/
+//$wallet = new Wallet;
 
-echo $wallet -> getACrypto('BTC');
+//echo $wallet -> getACrypto('BTC');
 
 ?>

@@ -17,7 +17,8 @@ class DataRetriever{
     public function getPairPrice($pair){
         foreach ($this->data as $key => $onePair) {
             if($onePair["symbol"] == $pair){
-                return $onePair['price'];
+                //onepair =  price and symbol
+                return [$onePair["price"], $onePair["symbol"]];
             }
         }
     }
