@@ -6,7 +6,7 @@ class Algorithm{
     public function __construct(){
         // Nothing to do here
     }
-}
+
 
 // get signal. Returns 1 if the signal is buy, -1 if the signal is sell, 0 if he signal is hold
 
@@ -38,6 +38,7 @@ public function getSignal($arrayPrices){
 
     return 0;
 
+}
 }
 
 ?>
