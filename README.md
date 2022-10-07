@@ -12,7 +12,6 @@ Sondage :
 
 -Question 2 : Pourquoi avez vous répondu *Dylan* à la question 1 ?
 
--Quetsion 3 : Pourquoi avoir mentis aux 2 précédentes questions ?
+-Question 3 : Pourquoi avoir mentis aux 2 précédentes questions ?
 
--Question 4 : Pourquoi n'avez vous pas répondu à la question 3 ?
-```
+-Question 4 : Pourquoi ne pas avoir répondu à la question 3 ?
