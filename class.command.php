@@ -3,7 +3,7 @@
 //design pattern command
 
 require_once("class.command.php");
-require_once("class.trader.php");
+require_once("class.traderbinance.php");
 require_once("class.binanceTraderFactory.php");
 require_once("class.wallet.php");
 
