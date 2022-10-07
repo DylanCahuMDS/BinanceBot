@@ -7,7 +7,7 @@ class Banker implements Bank
 
     private float $buffer;
 
-    public function storeMoney(double $amount)
+    public function storeMoney(float $amount)
     {
         $buffer += $amount;
 
