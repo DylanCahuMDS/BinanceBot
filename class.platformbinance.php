@@ -13,9 +13,16 @@ class PlatformBinance{
             if ($command["action"] == "buy") {
                 $quantity = 1;
 
-                $this->trader-buy($command["symbol"], $quantity, $command["price"]);
+                $this->trader-buy(
+                    $command->getSymbol(),
+                    $quantity,
+                    $command->getPrice()
+                );
             } else {
-                $this->trader->sell($command["symbol"], $command["price"]);
+                $this->trader->sell(
+                    $command->getSymbol(),
+                    $command->getPrice()
+                );
             }
         }
 
