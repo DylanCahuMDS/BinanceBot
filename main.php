@@ -19,7 +19,7 @@ include "class.command.php";
 $factory = new BinanceTraderFactory();
 $analizer = new Analyzer(
     new ProxyDataRetriever(
-        new DataRetriever("https://api.binance.com/api/v3/ticker/price")
+        new DataRetriever("apiBinance.json")
     ),
     new Algorithm()
 );
