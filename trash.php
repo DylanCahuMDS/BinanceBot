@@ -1,12 +1,12 @@
 <?php
 
 require("class.Wallet.php");
-require("class.analyse.php");
+require("class.analyser.php");
 require("class.trader.php");
 
 $url="trash.json";
-$analyse = new analyse($url);
-$instruction = $analyse->getAlgoInstruction()[0];
+$analyser = new analyser($url);
+$instruction = $analyser->getAlgoInstruction()[0];
 echo $instruction;
 
 
