@@ -20,7 +20,7 @@ class Analyse{
         return [$algoResponse->getSignal($dataRetrever->getData($dataRetrever->getPairPrice("BTCUSDT"))), $dataRetrever->getPairPrice("BTCUSDT")[1], $dataRetrever->getPairPrice("BTCUSDT")[0]];
     }
 
-    public function waitforCommand(){
+    public function waitForCommand(){
         
         $brutdata = $this-> getAlgoInstruction();
         $this-> commandreponse = [
