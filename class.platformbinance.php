@@ -11,6 +11,7 @@ class PlatformBinance{
         while ($command = $this->analyser->waitForCommand()){
 
             if ($command["action"] == "buy") {
+                //TODO : Define quantity to buy
                 $quantity = 1;
 
                 $this->trader-buy(
