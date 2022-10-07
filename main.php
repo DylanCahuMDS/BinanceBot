@@ -4,16 +4,16 @@ include "class.algorithm.php";
 include "class.dataretriever.php";
 include "class.proxydataretriever.php";
 
-include "interfaces/interface.bank.php";
+include "interface.bank.php";
 include "class.wallet.php";
 include "class.banker.php";
 
 include "abstract.class.traderfactory.php";
-include "binance/class.binanceTraderFactory.php";
-include "interfaces/interface.trader.php";
-include "binance/class.traderBinance.php";
+include "class.binanceTraderFactory.php";
+include "interface.trader.php";
+include "class.traderBinance.php";
 include "class.analyzer.php";
-include "binance/class.platformbinance.php";
+include "class.platformbinance.php";
 include "class.command.php";
 
 $factory = new BinanceTraderFactory();
