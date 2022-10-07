@@ -103,5 +103,3 @@ class Wallet implements Bank
         return $oneCrypto;
     }
 }
-
-?>
