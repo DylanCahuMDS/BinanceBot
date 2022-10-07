@@ -1,10 +1,10 @@
 Projet réalisé par :
 
 - Ludovic Evrin
-- Mathieu
-- Violette
+- Mathieu Gosse
+- Violette Audibert
 - Dylan Cahu
-- Victor
+- Victor Renault
 
 Sondage : 
 
