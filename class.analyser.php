@@ -1,7 +1,4 @@
 <?php
-include("class.algorithm.php");
-include("class.proxydataretriever.php");
-
 class Analyser{
     public $url;
     public $commandresponse;
