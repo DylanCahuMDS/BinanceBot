@@ -5,7 +5,18 @@ require("class.analyse.php");
 
 
 $analyse = new analyse('url');
-$analyse->getAlgoIns;
+$instruction = $analyse->getAlgoInstruction();
+
+/*
+function appelFonction($Instruct){
+   const map = {
+        1 : buy(),
+        -1 : sell(),
+    }
+
+    return map[$Instruct] ?? continue ;
+}
+*/
 $wallet = new Wallet;
 
 /*
