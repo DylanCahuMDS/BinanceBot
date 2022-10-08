@@ -2,7 +2,7 @@ Projet réalisé par :
 
 - Ludovic Evrin
 - Mathieu Gosse
-- Violette Audibert
+- Jade Audibert
 - Dylan Cahu
 - Victor Renault
 
@@ -15,3 +15,4 @@ Sondage :
 -Question 3 : Pourquoi avoir mentis aux 2 précédentes questions ?
 
 -Question 4 : Pourquoi ne pas avoir répondu à la question 3 ?
+```
